@@ -140,6 +140,11 @@ M['sql-formatter'] = {
   stdin = true,
 }
 
+M.xmlformat = {
+  cmd = 'xmlformat',
+  stdin = true,
+}
+
 M.yapf = {
   cmd = 'yapf',
   args = { '--quiet' },
